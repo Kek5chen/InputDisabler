@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "NetPractice Disabler",
+  "description": "Toggles Input Fields on NetPractice",
+  "version": "1.0",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["file://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
