@@ -8,7 +8,7 @@ This Chrome extension allows you to toggle the 'disabled' attribute of an input 
 
 ## Getting Started
 ### Prerequisites
-You need to have Google Chrome installed on your computer to load this extension.
+You need to have a Chromium based client installed on your computer to load this extension. It was tested with Brave.
 
 ### Installation
 1. Clone the repo:
